@@ -1,0 +1,202 @@
+/*初始化样式*/
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,button,form,input,textarea,p,th,td {   
+　　padding: 0;   
+　　margin: 0;   
+}
+  ul li {list-style: none;}
+  a,input,button{ outline:none}
+  textarea { resize:none; }
+  input,button,textarea,select,option {
+    font-family:inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+ }
+ h1,h2,h3,h4,h5,h6 {   
+　　 font-weight: normal;   
+　　 font-size: 100%;   
+ }  
+ .clear {clear:both;}
+   /*布局开始*/  
+body{
+	font-family: "微软雅黑";font-size: 12px;
+      background: url(../../img/login/login.jpg); background-size: cover;
+}
+#login_dialog {  
+    position: fixed;  
+    left: 45%;  
+    top: 40%;  
+    width: 400px;  
+    margin-left: -140px;  
+    margin-top: -150px;       
+    /*禁止复制粘贴*/  
+    -moz-user-select: none;  
+    -webkit-user-select: none;  
+    user-select:none;  
+} 
+.login_top{margin-top: -40px;} 
+.register_title {  
+    line-height: 35px;  
+    margin: 0 5px;  
+} 
+.register_margin {width: 10px; height: 70px;}  
+.register_info {  
+    text-align: center;
+    color: #e6c391;  
+    font-size: 28px;  
+}  
+#register_dialog {  
+    position: fixed;  
+    left: 40%;  
+    top: 40%;  
+    background-color: #303a40;  
+    width: 500px;  
+    /*  height: 600px; */  
+    margin-left: -200px;  
+    margin-top: -200px;  
+    
+    -moz-user-select:none; /*火狐*/  
+    -webkit-user-select:none; /*webkit浏览器*/  
+    -ms-user-select:none; /*IE10*/  
+    -khtml-user-select:none; /*早期浏览器*/  
+     user-select:none;  
+}   
+.dialog_close { 		
+    margin: 10px 0 10px 0; 
+    font-size: 20px;  
+    color: #e6c391;  
+    border-radius: 5px;    
+    text-align: center;  
+}  
+.loginbar form{padding: 20px 0px;}  
+ 
+.sub {  
+    text-align: center;  
+}  
+.sub input {  
+    display: inline-block;  
+     width: 100px;  
+ 	background-color: #e6c391;  
+    color: rgb(255, 255, 255);  
+    font-size: 16px;  
+    text-align: center;  
+    height: 30px;  
+    line-height: 30px;  
+    border-radius: 5px;
+    outline: none;  
+    border: none;  
+    margin: 0 0 0 -50px;  
+}  
+             
+input[type = "submit"]:hover{cursor: pointer;}  
+    /*布局结束*/ 
+    
+    
+   /*表单样式*/  
+.reg-box { padding-left: 13px; }  
+.reg-box li { line-height: 44px; width: 500px; overflow: hidden; }  
+.reg-box li label { 
+	width: 65px; 
+	height: 30px; 
+	float: left; 
+	line-height: 30px; 
+	text-align: right; 
+	padding-right: 15px;
+	color: #fff;
+	margin-left: 5px; 
+}  
+.reg-box li input,.reg-box li select{ 
+	padding: 6px 0; 	
+	width: 230px; 
+	height: 16px; 
+	line-height: 28px;
+	border: 1px solid #dddddd;
+	text-indent: 0.5em; 
+	float: left; 
+	border-radius: 5px;
+}  
+.reg-box li select option{font-size:16px;}  
+.registered .btn a {
+	 background: #ff7200; margin-left: 110px; 
+	 }  
+       /*验证码*/  
+.add { 
+	width: 110px;
+	 height: 30px; 
+	 float: left;
+	  _display: inline; 
+	  cursor: pointer; 
+	  margin-left: 20px;
+	 }  
+.reg-box li .sradd {
+	 width: 100px; 
+	 text-indent: 4px;
+	  font-size: 14px; 
+	  color:#999;
+	  ime-mode:disabled;
+	  -webkit-ime-mode:inactive;
+	 }
+.reg-box li input{color: #999;}  
+.reg-box li .input-code { 
+	width: 106px; 
+	padding: 10px;
+	font-family: Arial;
+	font-style: italic;
+	color: red; 
+	letter-spacing: 1px;
+	cursor: pointer; 
+	text-align: center; 
+	text-indent: 0; 
+	}  
+.yzm,.phoKey { 
+	background: #e6c391; 
+	text-align: center; 
+	line-height: 30px; 
+	color: #fff;
+	border-radius: 5px; 
+	}  
+.phoKey{
+	letter-spacing: 3px; font-size:15px;
+	}  
+.yzmc {
+	background: #dddddd; 
+	text-align: center; 
+	line-height: 44px; 
+	color: #999; 
+	}  
+.error {
+	clear:both;
+	display:block;
+	color: red; 
+	padding-left: 90px; 
+	padding-bottom:5px;
+	height:20px;
+	float: left; 
+	line-height: 20px;
+	}  
+input { 
+	background-color: #fff; outline: none; 
+	}  
+ .reg-box li { width: auto; } 
+  
+.reg-box li input.errorC, .errorC{ border: 1px solid red; }
+  
+.reg-box li input.checkedN , .checkedN{ border: 1px solid #1ece6d; } 
+ 
+a:hover{text-decoration: none;} 
+
+.loginbar{background-color:rgba(0,0,0,0.6);margin:10px; border-radius: 8px;}
+.user label{margin-top: 10px;}
+.account,.email{color:#999;}
+
+.reg-box .user input{margin-top: 10px;}
+.reg-box .remember{font-size: 14px;}
+.reg-box .remember input{width: 15px;margin-left: 85px;margin-top: 2px;}
+.reg-box .remember label{line-height: 18px;}
+.reg-box .remember a{
+	float: left; 
+	line-height: 18px;
+	color: #fff;
+	margin-left: 40px;
+	text-decoration: none;
+	}

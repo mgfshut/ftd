@@ -1,0 +1,126 @@
+/*报警管理样式*/
+
+.main-left {
+	width: 49%;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+}
+
+.main-right {
+	width: 49%;
+	height: 300px;
+	float: right;
+	margin-top: 20px;
+}
+
+.main-top {
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	border-bottom: 1px solid #dce8f1;
+}
+
+.main-topImg1 {
+	display: inline-block;
+	width: 5%;
+	height: 100%;
+	background: url(../assets/img/cbl.png) no-repeat center center;
+	float: left;
+}
+
+.main-topImg2 {
+	display: inline-block;
+	width: 5%;
+	height: 100%;
+	background: url(../assets/img/cfwyy.png) no-repeat center center;
+	float: left;
+}
+
+.main-topImg3 {
+	display: inline-block;
+	width: 5%;
+	height: 100%;
+	background: url(../assets/img/ycjj.png) no-repeat center center;
+	float: left;
+}
+
+.main-topImg4 {
+	display: inline-block;
+	width: 5%;
+	height: 100%;
+	background: url(../assets/img/wzyy.png) no-repeat center center;
+	float: left;
+}
+
+.main-topSpan1 {
+	display: inline-block;
+	color: #428bca;
+	font-size: 16px;
+}
+
+.main-topSpan2 {
+	float: right;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.tab-t {
+	display: block;
+	color: #428bca;
+}
+
+.tab-d {
+	display: block;
+}
+
+.tab-img {
+	width: 85%;
+}
+.index_serachT {
+    margin: 10px auto 0 auto;
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F7;
+}
+.index_serach {
+    margin: 10px auto 0 auto;
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    height: 50px;
+    background-color: #F7F7F7;
+}
+.index_serachZ {
+    margin: 10px auto 0 auto;
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.index_serachSpan{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.index_serachSelect{
+	width: 143px;margin-right: 15px; margin-top: -5px;
+}
+.index_serachButT{
+	
+	float: right;
+	margin-top: 60px;
+	margin-right: 10px;
+}
+.index_serachBut{
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+.td_center{
+	text-align: center;
+}
+.td_colo{
+	color: #6f7b91;
+}

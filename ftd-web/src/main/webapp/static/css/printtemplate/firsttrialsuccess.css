@@ -1,0 +1,178 @@
+.cent {
+	width: 595px;
+	height: 840px;
+	margin: 0 auto;
+	border: 0px solid red;
+}
+
+.top {
+	width: 316px;
+	height: 20px;
+	margin: 100px auto 0 auto;
+	font-family: "宋体";
+	font-size: 21px;
+	line-height: 20px; //
+	border: 1px solid #eee;
+}
+
+.top_2 {
+	width: 148px;
+	height: 20px;
+	margin: 8px auto 0 auto;
+	font-family: "宋体";
+	font-size: 21px;
+	line-height: 20px; //
+	border: 1px solid #eee;
+}
+
+.text_1 {
+	margin-left: 50px;
+	margin-top: 45px;
+	font-size: 16px;
+}
+
+.input1 {
+	width: 280px;
+	background-color: transparent;
+	border: 0px
+}
+
+.first { //
+	width: 465px;
+	height: 16px;
+	margin-top: 10px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.input2 {
+	width: 150px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: -5px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input3 {
+	width: 30px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: -5px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input4 {
+	width: 22px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: -5px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input5 {
+	width: 240px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 0px
+}
+
+.second { //
+	width: 500px;
+	height: 16px;
+	margin-top: 11px;
+	margin-left: 44px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.xinxi {
+	height: 20px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.xinxi2 {
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.left {
+	height: 16px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.input6 {
+	width: 200px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input7 {
+	width: 200px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 0px
+}
+
+.right {
+	height: 16px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 13px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.car {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.seal {
+	width: 192px;
+	margin-left: 366px;
+	margin-top: 30px;
+	font-family: "宋体";
+	font-size: 16px;
+}
+
+.time {
+	width: 200px;
+	font-family: "宋体";
+	font-size: 16px;
+	margin-left: 356px;
+	margin-top: 20px;
+}

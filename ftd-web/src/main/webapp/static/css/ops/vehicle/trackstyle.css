@@ -1,0 +1,184 @@
+    #container,
+    body,
+    html {
+        height: 100%;
+        width: 100%
+    }
+    
+    #loadingTip,
+    #panel {
+        position: absolute;
+        top: 0
+    }
+    
+    body,
+    html {
+        margin: 0;
+        font-size: 12px
+    }
+    
+    #outer-box {
+        height: 100%;
+        padding-right: 300px;
+    }
+    
+    #panel {
+        right: 0;
+        width: 300px;
+        z-index: 999;
+        height: calc(100% - 5px);
+        overflow: hidden;
+        overflow-y: auto
+    }
+    
+    #routes-container {
+        height: 100px;
+        width:300px;
+        margin-left: 60px;
+        margin-top: -30px;
+    }
+    
+    #loadingTip {
+        z-index: 9999;
+        left: 0;
+        padding: 3px 10px;
+        background: red;
+        color: #fff;
+        font-size: 13px
+    }
+    
+    .route-item {
+        margin-bottom: 10px;
+    }
+    
+    .route-item pre {
+        margin: 0
+    }
+    
+    .route-item h3 {
+        margin: 5px 0;
+        font-size: 14px;
+        cursor: pointer
+    }
+    
+    .hide {
+        display: none
+    }
+    
+    .speedBox {
+        border: solid 1px #009688; /*设置边框*/ 
+        width:240px; 
+        background-color:#009688;
+    }
+    
+/*     .speedRange {
+        vertical-align: middle;
+        background-color:red;
+        margin: 0;
+        padding: 0;
+        width: 100px
+    } */
+    
+   /*横条样式*/  
+/*   input[type=range] {  
+  -webkit-appearance: none;清除系统默认样式  
+  width: 100px;  
+  background: -webkit-linear-gradient(#ffffff, #ffffff) no-repeat, #ddd;设置左边颜色为#61bd12，右边颜色为#ddd  
+  background-size: 100% 100%;设置左右宽度比例  
+  height: 5px;横条的高度  
+  border: solid 1px #ddd; 设置边框  
+}   */
+ input[type=range] {
+            -webkit-appearance: none; /*清除系统默认样式*/
+            width: 108px;
+            background: -webkit-linear-gradient(left,red, yellow) no-repeat, #ddd;
+            height: 8px;
+            border-radius: 4px ;
+            outline: none;
+            cursor: pointer;
+            background-size: 100% 100%;
+            display: inline-block;
+        } 
+        
+input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none; /*清除系统默认样式*/
+            height: 16px; /*拖动块高度*/
+            width: 16px; /*拖动块宽度*/
+            background: #fff; /*拖动块背景*/
+            border-radius: 50%;
+            /* border: solid 1px #ddd; !*设置边框*!*/
+        }
+    
+    .markerInfo {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 2px 5px;
+        border: 1px solid #ccc;
+        white-space: nowrap;
+    }
+    .navigBtn{
+    outline: 0;
+	-webkit-transition: border-color .3s cubic-bezier(.65, .05, .35, .5);
+	transition: border-color .3s cubic-bezier(.65, .05, .35, .5);
+	-webkit-box-sizing: border-box!important;
+	-moz-box-sizing: border-box!important;
+	box-sizing: border-box!important
+    }
+    .navigBtnstyle{
+    display: inline-block;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 1px;
+	background-color: #009688;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 11px;
+ 	border: 1px solid #009688; 
+	border-radius: 2px;
+	cursor: pointer;
+	opacity: 1;
+	border: 0px solid #009688; 
+	filter: alpha(opacity=90)
+    }
+    .navigBtnstyle:hover{
+    border: 0px solid #0080ff; 
+    background: #0080ff;
+    }
+    .speedTxtstyle{
+    display: inline;
+    color:#ffffff
+    }
+
+    /*自定义字体样式*/
+    @font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?szsfpo');
+  src:  url('fonts/icomoon.eot?szsfpo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?szsfpo') format('truetype'),
+    url('fonts/icomoon.woff?szsfpo') format('woff'),
+    url('fonts/icomoon.svg?szsfpo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 5;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map:before {   
+  content: "\e900";
+  color: #1296db;
+}
+

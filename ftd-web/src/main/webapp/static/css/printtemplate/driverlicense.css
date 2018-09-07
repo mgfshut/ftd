@@ -1,0 +1,146 @@
+/**{margin: 0;padding: 0;}
+input{
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+	outline: none;
+}*/
+.centent{
+			width: 590px; 
+			height: 366px; 
+			border: 1px solid #ffffff; 
+			margin: －7px 10px 0px 0px;
+		}
+		.centent_left{
+			width: 295px; 
+			height: 366px; 
+			border-right:1px solid #ffffff ; 
+			float: left;
+			text-align: center;
+		}
+		.centent_right{
+			width: 294px; 
+			height: 366px;  
+			float: right;
+			text-align: center;
+		}
+		.font1{
+			display: block;
+			font-family: "楷体";
+			font-size:20px ;
+			padding-top: 55px;
+			font-weight: bolder;
+		}
+		.fengmian_img{
+			width: 128px; 
+			height: 128px; 
+			padding-top: 18px;
+		}
+		.font2{
+			display: block;
+			font-family: "楷体";
+			font-size:20px ;
+			padding-top: 18px;
+			font-weight: bolder;
+		}
+		.font3{
+			display: block;
+			font-family: "楷体";
+			font-size:21px ;
+			padding-top: 22px;
+			font-weight: bolder;
+		}
+		.font4{
+			display: block;
+			font-family: "楷体";
+			font-size:14px ;
+			padding-top: 297px;
+			font-weight: bold;
+		}
+		.font5{
+			display: block;
+			font-family: "楷体";
+			font-size:14px ;
+			padding-top: 299px;
+			font-weight: bolder;
+			float: left;
+			margin-left: 40px;
+		}
+		.zhaopian{
+			display: block;
+			width: 131px;
+			height: 166px;
+			
+			margin-top: 91px;
+			margin-left: 80px;
+		}
+		.font6{
+			font-family: "宋体";
+			font-size: 14px;
+			line-height: 22px;
+			margin-top: 45px;
+			display: block;
+		}
+		.font7{
+			display: block;
+			font-family: "楷体";
+			font-size:14px ;
+			padding-top: 20px;
+			font-weight: bolder;
+		}
+		.table1{
+			width: 274px; 
+			height: 343px;
+			margin:54px 6px 0px 0px;
+			font-family: "宋体";
+			font-size: 12px;
+			/* line-height: 30px; */
+			font-weight:normal;
+		}
+		.td1{
+			border-left: none; 
+			border-right: none; 
+			
+		}
+		.td2{
+			border: none;
+		}
+		.td3{
+			border-left: none; 
+			border-top: none; 
+			border-bottom: none;
+		}
+		.td4{
+			border-right: none; 
+			border-bottom: none;
+		}
+		.tbody{
+			text-align: left;
+			text-indent: 5px;
+		}
+		.td5{
+			border: none;
+			text-align: left;
+			text-indent: 5px;
+		}
+		.td6{
+			border: none;
+			text-align: right;
+		}
+		.td7{
+			border-left: none; 
+			border-top: none; 
+			border-bottom: none;
+			text-align: right;
+		}
+		.table2,.table3{
+			width: 274px; 
+			height: 343px;
+			margin:20px auto 0 auto;
+			font-family: "宋体";
+			font-size: 14px;
+			line-height: 46px;
+		}
+.centent .centent_left input{border-style: none;display: inline-block;width: 170px;font-size:12px;}		
+.centent .centent_left .table1 input{border-style: none;display: inline-block;width: 65px;font-size:12px;}
+.centent .centent_right .table1 input{border-style: none;display: inline-block;width: 80px;}
+.centent .centent_right .table2 input{border-style: none;display: inline-block;width: 182px;}
+.centent .centent_left .table2 input,.centent .centent_right .table3 input{border-style: none;display: inline-block;width: 210px;}

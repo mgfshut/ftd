@@ -1,0 +1,59 @@
+
+body{
+    padding: 0px;
+}
+
+/*.line-data{*/
+    /*border-top:1px solid #ccc;*/
+/*}*/
+
+.layui-form{
+    background-color: #fff;
+}
+.layui-form-label{
+    width: 50px;
+}
+.layui-input-block{
+    margin-left: 70px;
+    width: auto;
+}
+.layui-btn{
+    border-radius: 2px;
+    text-align: center;
+    width: 80%;
+    margin-top: 5px;
+}
+.line-data a:hover, .line-data a:focus{
+    color: #fff;
+    text-decoration: none;
+}
+/*.inq-school{*/
+    /*margin: 10px;*/
+    /*border: 1px solid #ccc;*/
+/*}*/
+.inq-school ul .list-school{
+    display: inline-block;
+    border: 1px solid #eee;
+    width: 32%;
+    height: auto;
+    color: #728db8;line-height: 25px;
+    margin: 10px 6px 0 0;
+    box-shadow: 1px 2px 1px #ddd;
+}
+.inq-school ul .list-school img{
+    width:100%;
+    height: auto;
+}
+#schoolList{
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.layui-laypage a, .layui-laypage span{
+    margin-bottom: 0px;
+}
+.list-school .inf-school{
+    padding:5px 10px;
+}
+.list-school .inf-school p{
+    margin-bottom: 0px;
+}

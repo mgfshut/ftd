@@ -1,0 +1,50 @@
+body{
+	padding: 0px;
+}
+.box-tab{
+	position: fixed;width: 100%;bottom: 0;background: #fff;
+}
+.tab-content{
+	display: none;overflow: auto;border-top: 1px solid #ccc;
+}
+.layui-tab{
+	margin: 0;
+}
+.layui-tab-title.layui-tab-title{
+	position: absolute;width: 100%;background: #fff;z-index: 1;
+}
+.layui-tab-item{
+	margin-top: 19px;
+}
+.layui-table thead tr th, .layui-table tbody tr td{
+	text-align: center;
+}
+.amap-copyright,.amap-logo{
+	display: none!important;
+}
+.layui-tab-title{
+	height: 25px;
+}
+.layui-tab-title li{
+	font-size: 11px;
+	line-height: 26px;
+	overflow: hidden;
+}
+.layui-table td, .layui-table th{
+	font-size: 11px;
+	padding: 4px;
+}
+.layui-tab-title .layui-this{
+	background-color: #5db2ff4d;
+}
+.layui-tab-content{
+	padding: 10px 3px;
+}
+.line-title {
+	background-color: #f1f1f1;
+	width: 100%;
+	line-height: 32px;
+	height: 30px;
+	text-indent: 10px;
+	box-shadow: 0px 1px 1px #ccc;
+}

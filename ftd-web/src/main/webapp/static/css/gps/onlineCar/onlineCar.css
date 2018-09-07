@@ -1,0 +1,72 @@
+
+body{
+    padding: 0px;
+}
+ul{
+    margin-bottom: 0px;
+}
+#container ul{
+    padding: 2px 0px 0px 2px;
+}
+/*#container ul li{*/
+    /*height: 48%;*/
+    /*width: 48%;*/
+/*}*/
+/*#vedio li a{*/
+    /*height: 48%;*/
+/*}*/
+#container .video-title{
+    font-size: 15px;
+    background-color: #F9F9F9;
+    height:44px;
+    vertical-align: middle;
+    line-height:44px;
+    box-shadow:0px 2px 5px #aaa;
+}
+#container .video-content{
+    height: 100%;
+}
+#container .video-content a{
+    display:block;height:100%;width: 100%;
+}
+#container .video-content ul{
+    height: 100%;
+    margin: 0;
+}
+#container .video-content ul li{
+    float: left;
+    width: 49%;
+    height: 48.6%;
+    margin: 5px 0 0 5px;
+    border: 1px solid #ccc;
+}
+
+.line-data{
+    border-top:1px solid #ccc;
+}
+
+.fa-times-circle{
+    margin-right:5px;margin-top: 2px;float: right;cursor: pointer;
+}
+.widget-body{
+    padding: 0px;
+    padding-bottom: 1px;
+    box-shadow: none;
+}
+.vedio-title{
+    margin-top: 2px;text-align: center;border-bottom: 1px solid #ccc;
+}
+#vedio ul li a{
+    height: 93%;
+}
+
+#container  ul li{
+    display: inline-block;
+    border:1px solid #ccc;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.videodiv{
+    background: url("/static/assets/img/video.png") no-repeat;
+    background-size: 100% 100%;
+}

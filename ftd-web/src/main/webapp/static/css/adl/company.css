@@ -1,0 +1,44 @@
+/*行政许可样式*/
+
+.index_serachT {
+    margin: 10px auto 0 auto;
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F7;
+}
+.index_serach {
+    margin: 10px auto 0 auto;
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    height: 50px;
+    background-color: #F7F7F7;
+}
+.index_serachSpan{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.index_serachSelect{
+	width: 143px;margin-right: 15px; margin-top: -5px;
+}
+.index_serachButT{
+	float: right;
+	margin-top: 60px;
+	margin-right: 10px;
+}
+.index_serachBut{
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+.td_center{
+	text-align: center;
+}
+.td_colo{
+	color: #6f7b91;
+	font-weight: bold;
+}
+

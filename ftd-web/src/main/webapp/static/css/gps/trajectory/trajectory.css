@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+}
+.button-group {
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.button-group .button {
+    height: 28px;
+    line-height: 28px;
+    background-color: #0D9BF2;
+    color: #FFF;
+    border: 0;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.button-group .inputtext {
+    height: 26px;
+    line-height: 26px;
+    border: 1px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.layui-form{
+    background-color: #fff;
+}
+.layui-form-label{
+    width: 50px;
+}
+.layui-input-block{
+    margin-left: 70px;
+    width: auto;
+}
+/*.layui-input, .layui-select, .layui-textarea{*/
+    /*border-radius: 2px;*/
+/*}*/
+.layui-btn{
+    border-radius: 2px;
+    text-align: center;
+    width: 80%;
+}

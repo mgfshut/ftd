@@ -1,0 +1,182 @@
+
+.tab-panel {
+	position: relative;
+	height: 42px;
+	background-color: #eee;
+	border-bottom: 2px solid #2f4050;
+}
+
+.tab-panel > * {
+	position: absolute;
+	top: 0px;
+	height: 41px; 
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.tab-panel > a,
+.tab-panel > button {
+	color: #999;
+	border: none; 
+	text-align: center; 
+    background-color: #FEFEFE; 
+    line-height: 41px;
+}
+
+.tab-panel > .BTabLeft {
+	width: 36px; 
+    border-right: 1px solid #eee !important;
+}
+
+.tab-panel > .BTabRight {
+	width: 36px; 
+	right: 188px;
+    border-left: 1px solid #eee !important;
+}
+
+.tab-panel > nav {
+	width: 10000px;
+	margin-left: 36px;
+	background-color: #FAFAFA; 
+	overflow: hidden;
+}
+
+.tab-panel > nav > ul > li,
+.tab-panel > nav > ul > li > a {
+	background-color: #FAFAFA; 
+}
+
+#tabs-nav {
+	top: 0px;
+	float: left;
+	height: 100%;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	box-shadow: none; 
+}
+		
+#tabs-nav > li {
+	margin-bottom: 0px;
+}
+
+.tab-panel > a {
+	width: 36px;
+	padding: 8px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 1px solid #eee !important;
+}
+
+.tab-panel > a:hover {
+	color: #777;
+	background: #f2f2f2;
+}
+
+.tab-panel > a.sidebar-toggler {
+	right: 0px;
+}
+
+.tab-panel > a.refresh {
+    right: 36px;
+}
+
+.tab-panel > a.fullscreen {
+   	right: 72px;
+}
+
+.tab-panel > a > .fa {
+	width: 100%;
+	opacity: .75;
+	font-size: 17px;
+	line-height: 41px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.tab-panel > a.fullscreen > .fa:hover {
+	color: #fb6e52;
+}
+
+.tab-panel > a.refresh > .fa:hover {
+    color: #ffce55;
+}
+
+.tab-panel > a.sidebar-toggler > .fa:hover {
+	color: #5A87CA;
+}
+
+.tab-panel > a:before {
+	content: "";
+	height: 2px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+    bottom: -2px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.tab-panel > a.fullscreen:before {
+    background-color: #fb6e52;
+}
+
+.tab-panel > a.refresh:before {
+    background-color: #ffce55;
+}
+
+.tab-panel > a.sidebar-toggler:before {
+	background-color: #5A87CA;
+}
+
+.tab-dropdown {
+	width: 80px; 
+	right: 108px;  
+	border:none; 
+	vertical-align: middle; 
+	border-left: 1px solid #eee;
+}
+
+.tab-dropdown > button {
+	color: #999;
+	border:none;  
+	width: 80px;
+	height: 100%;
+	padding: 0px 6px;
+	 background-color: #FEFEFE; 
+}
+
+.tab-dropdown > button:focus {
+	outline: none !important;
+}
+
+.tab-dropdown > button:hover,
+.tab-dropdown > button:active,
+.tab-dropdown > button:focus {
+	color: #777;
+    background-color: #fafafa;
+}
+
+.tab-dropdown .dropdown-menu {
+	left: auto;
+	font-size: 12px;
+	border-radius: 0;
+	min-width: 160px;
+    box-shadow: 0 0 3px rgba(86,96,117,.3);
+}
+
+.tab-dropdown .dropdown-menu>li>a {
+    margin: 4px;
+    color: #999;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+}
+
+.tab-dropdown .dropdown-menu>li>a:focus, 
+.tab-dropdown .dropdown-menu>li>a:hover {
+    color: #262626;
+    background-color: #f5f5f5;
+}
+

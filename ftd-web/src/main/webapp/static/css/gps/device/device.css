@@ -1,0 +1,17 @@
+.device-form{
+    background-color: #fff;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.device-item{
+    margin-bottom: 25px;
+}
+.device-label{
+    width: 130px;
+}
+.device-block{
+    margin-left: 150px;
+}
+.device-inline{
+    margin-left: 30px;
+}

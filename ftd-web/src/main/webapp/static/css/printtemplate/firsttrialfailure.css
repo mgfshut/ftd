@@ -1,0 +1,248 @@
+/*初始化样式*/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/* Firefox */
+	-webkit-box-sizing: border-box;
+	/* Safari */
+}
+.overflow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+button{
+	outline: none;
+	border: 0px;
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+}
+input{
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+	outline: none;
+}
+a {
+	outline: none;
+}
+a,button{cursor:pointer;} 
+
+body {
+	background: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+}
+.clear {
+	clear: both;
+}
+.pic img{display: none;}
+i,p,h1,h2,h3,h4,h5,h6,hr,br,em,dl,dd,li,ul,ol,td,th,pre,form,body,input,strong,textarea,select,figcaption,figure{
+	margin: 0;
+	padding: 0;
+}
+em {
+	font-style: normal
+}
+li {
+	list-style: none
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+	
+}
+table {
+	border-collapse: collapse;
+	line-height: 30px;
+}
+textarea {
+	resize: none;
+	overflow: auto;
+}
+a,button{cursor:pointer;} 
+/*以上为reset样式*/
+
+.top{font-size: 24px;font-weight: bold;font-family: "新宋体";text-align: center;}
+.top_2{font-size: 24px;font-weight: bold;font-family: "新宋体";text-align: center;}
+
+
+.text_1 {
+	margin-left: 170px;
+	margin-top: 45px;
+	font-size: 16px;
+}
+
+.input1 {
+	width: 200px;
+	background-color: transparent;
+	border: 0px
+}
+
+.first { //
+	width: 465px;
+	height: 16px;
+	margin-top: 10px;
+	margin-left: 100px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.input2 {
+	width: 45px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: -5px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input3 {
+	width: 30px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: -5px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input4 {
+	width: 22px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: -5px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input5 {
+	width: 180px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 0px
+}
+
+
+.second { //
+	width: 500px;
+	height: 16px;
+	margin-top: 11px;
+	margin-left: 70px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+.third { //
+	width: 500px;
+	height: 16px;
+	margin-top: 11px;
+	margin-left: 70px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+.fourth{
+	width: 500px;
+	height: 16px;
+	margin-top: 11px;
+	margin-left: 100px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+.textarea{
+	margin-left: 100px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+}
+.xinxi {
+	height: 20px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.xinxi2 {
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px; //
+	border: 1px solid #eee;
+}
+
+.left {
+	height: 16px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.input6 {
+	width: 100px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 0px
+}
+
+.input7 {
+	width: 75px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 0px
+}
+
+.right {
+	height: 16px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 13px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.car {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 78px;
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.seal {
+	width: 192px;
+	margin-left: 400px;
+	margin-top: 30px;
+	font-family: "宋体";
+	font-size: 16px;
+	
+}
+
+.time {
+	width: 200px;
+	font-family: "宋体";
+	font-size: 16px;
+	margin-left: 400px;
+	margin-top: 20px;
+}

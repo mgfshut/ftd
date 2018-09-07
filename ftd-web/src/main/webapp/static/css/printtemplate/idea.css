@@ -1,0 +1,87 @@
+/*初始化样式*/
+ *{margin: 0;padding: 0;}
+  ul li {list-style: none;}
+  a,input,button{ outline:none; cursor: pointer;}
+  textarea { resize:none; }
+  input,button,textarea,select,option {
+    font-family:inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+ }
+ h1,h2,h3,h4,h5,h6 {   
+　　 font-weight: normal;   
+　　 font-size: 100%;   
+ }  
+ .clear {clear:both;}
+   /*布局开始*/  
+body{
+	font-family: "微软雅黑";font-size: 12px;
+}
+ul{width: 702px;height: 400px;border-bottom: 1px solid #333;margin: 0 auto;overflow: hidden;}
+ul li{}
+
+ul .import{float: left;width: 400px;height: 400px;border: 1px solid #333;}
+ul .import span{
+		display: block;
+		border: 1px solid #333;
+		font-size: 18px;
+    padding-left: 5px;
+    line-height: 35px;
+    }
+ul .import textarea{width: 378px;height: 300px;padding: 10px;font-size: 14px;}
+ul .import p{}
+
+
+ul .choice{float: left;width: 200px;height: 400px;border: 1px solid #333;}
+ul .choice span{
+		display: block;
+		border: 1px solid #333;
+		font-size: 18px;
+    padding-left: 5px;
+    line-height: 35px;
+    }
+ul .choice .choice-list{width: 200px;height: 364px;overflow: auto;}
+ul .choice .choice-list a{
+		color: #333;
+		display: block;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    }
+ul .choice .choice-list a:hover{color: #333;}
+
+
+ul .handle{
+	float: left;
+	width: 96px;
+	height: 400px;
+	border: 1px solid #333;
+	}
+ul .handle button{    
+		width: 70px;
+    height: 25px;
+    display: block;
+    margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

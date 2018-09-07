@@ -1,0 +1,225 @@
+.centent{
+			width: 390px; 
+			height: 510px; 
+			border: 1px solid #ffffff; 
+			margin: 0 auto;
+			text-align: center;
+		}
+		.top{
+			font-family: "微软雅黑" ;
+			font-size: 30px;
+			font-weight: bolder;
+			margin-top: 17px;
+			line-height: 48px;
+		}
+		.top_fu{
+			font-family: "微软雅黑" ;
+			font-size: 16px;
+			margin-top: 5px;
+		}
+		.zi_nbsp{
+			display: inline-block; 
+			width: 26px;
+		}
+		.hao_nbsp{
+			display: inline-block; 
+			width: 65px;
+		}
+		.centent_1{
+			width: 300px; 
+			display: block; 
+			margin: 10px auto 0 auto; 
+			text-align: left;
+			font-family: "宋体";
+			font-size:16px ;
+			line-height: 27px;
+		}
+		.centent_1_lef{
+			display: inline-block; 
+			width: 96px;
+		}
+		.centent_1_rig{
+			display: inline-block; 
+			border-bottom: 1px dashed #ffffff; 
+			width: 180px;
+		}
+		.right_1{
+			display: inline-block;
+		}
+		.right_1 .right_2{
+			display: inline-block;
+			width: 65px;
+			border-bottom: 1px dashed #ffffff;
+		}
+		.right_2 input{width: 65px;}
+		.quanju{
+			width: 617px;
+			height: 435px;
+			margin: 0 auto;
+			border: 1px solid #ffffff;
+		}
+		.quanju_left{
+			width: 307px;
+			height: 435px;
+			border-right:1px solid #ffffff ;
+			display: inline-block;
+			float:left;
+		}
+		.quanju_right{
+			display: inline-block;
+			width: 308px;
+			height: 430px;
+			text-align: center;
+		}
+		.top_font{
+			font-family: "宋体";
+			font-size: 29px;
+			line-height: 56px;
+			font-weight: bolder;
+		}
+		.top_font2{
+			font-family: "宋体";
+			font-weight: bolder;
+			font-size: 20px;
+			line-height: 46px;
+		}
+		.top_font3{
+			font-family: "微软雅黑";
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.top_font4{
+			font-family: "微软雅黑";
+			font-size: 20px;
+			line-height: 49px;
+		}
+		.quanju_cent{
+			text-align: left; 
+			width: 273px; 
+			margin: 0 auto; 
+			line-height: 20px;
+		}
+		.quanju_right_1{
+			font-family: "宋体";
+			display: inline-block; 
+			width: 96px;
+			font-size: 16px;
+		}
+		.quanju_right_2{
+			display: inline-block; 
+			border-bottom: 1px dashed #ffffff; 
+			width: 165px;
+			font-size: 8px;
+		}
+		.quanju_right_3{
+			font-family: "宋体";
+			font-size: 16px;
+			display: inline-block;
+		}
+		.quanju_right_4{
+			font-family: "宋体";
+			font-size: 16px;
+			display: inline-block;
+			width: 40px;
+			font-size: 9px;
+			border-bottom: 1px dashed #ffffff;
+		}
+		.quanju_right_3 .quanju_right_4 input{width: 40px;}
+		
+		
+		.table3{
+			width: 274px; 
+			height: 390px; 
+			margin: 25px auto 0 auto; 
+			font-size: 14px;
+		}
+		.table4{
+			width: 274px; 
+			height: 390px; 
+			margin: 25px auto 0 auto; 
+			font-size: 14px;
+		}
+		.td1{
+			height: 130px; 
+			padding-left: 10px;
+		}
+		.table3 .td1 span {width: 20px;display: inline-block;line-height: 25px;margin-top: 10px;}
+		.table3 .td1 textarea{float: left; margin-top: 10px;margin-left: 5px; border-style:none ;width: 230px;height: 110px;}
+		.td2{
+			padding-left: 190px;
+			display: block;
+			padding-top: 50px;
+		}
+		.td3{
+			
+			display: inline-block;
+			padding-top: 10px;
+		}
+		.td4{
+			
+			display: inline-block;
+			padding-top: 10px;
+		}
+		.tr1{
+			height: 42px;
+			text-align: left;
+		}
+		.tr1_1{
+			border-left: none;
+			border-top: none;
+			border-bottom: none;
+		}
+		.tr1_1_1{
+			border-left: none;
+			border-top: none;
+			border-bottom: none;
+			padding-left: 10px;
+		}
+		.tr1_2{
+			border-left: none;
+			border-top: none;
+		}
+		.tr3{
+			
+			display: inline-block;
+			padding-top: 10px;
+		}
+		.tr4{
+			
+			display: inline-block;
+			padding-top: 10px;
+		}
+		.tr1_1_2{
+			border-left: none;
+			border-top: none;
+			padding-left: 10px;
+		}
+		.td5{
+			width: 50px;
+			text-align: center;
+		}
+		input{border-style: none;display: inline-block;}
+.centent .centent_1 input{border-style: none;display: inline-block;width: 180px;}		
+.quanju_right .quanju_cent input{border-style: none;display: inline-block;width: 145px;}
+.quanju_right .table3 .tr1 .tr1_1 input,.quanju_left .table3 .tr1 .tr1_1 input{width: 90px;margin-left: 25px;}
+.quanju_right .table3 .tr1 .tr1_1_2 input,.quanju_left .table3 .tr1 .tr1_1_2 input{width: 18px;}
+.quanju_right .table4 input,.quanju_left .table4 input{width: 195px;margin-left: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

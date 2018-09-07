@@ -1,0 +1,68 @@
+/*初始化样式*/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/* Firefox */
+	-webkit-box-sizing: border-box;
+	/* Safari */
+}
+.overflow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+button{
+	outline: none;
+	border: 0px;
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+}
+input{
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+	outline: none;
+}
+a {
+	outline: none;
+}
+a,button{cursor:pointer;} 
+
+body {
+	background: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+}
+.clear {
+	clear: both;
+}
+.pic img{display: none;}
+i,p,h1,h2,h3,h4,h5,h6,hr,br,em,dl,dd,li,ul,ol,td,th,pre,form,body,input,strong,textarea,select,figcaption,figure{
+	margin: 0;
+	padding: 0;
+}
+em {
+	font-style: normal
+}
+li {
+	list-style: none
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+	
+}
+table {
+	border-collapse: collapse;
+	line-height: 30px;
+}
+textarea {
+	resize: none;
+	overflow: auto;
+}
+a,button{cursor:pointer;} 
+/*以上为reset样式*/
+
+
+

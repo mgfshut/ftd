@@ -1,0 +1,962 @@
+.span_cheliangxiangqing {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: url(../../img/cheliangxiangqing.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.span_dingdanxiangqing {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: url(../../img/dingdanxiangqing.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.span_jiashiyuanxiangqing {
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	background: url(../../img/jiashiyuanxiangqing.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.span_chakanditu {
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	background: url(../../img/chakanditu.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*从业人员行政审批开始*/
+
+.select1 {
+	height: 30px;
+	width: 143px;
+	line-height: 30px;
+	line-height: 30px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.white {
+	color: white;
+}
+
+.img-1 {
+	margin-left: 15px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.font-1 {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 34px;
+	font-family: "微软雅黑";
+	padding-left: 5px;
+}
+
+.font-2 {
+	font-size: 14px;
+	color: #9e6c39;
+	line-height: 26px;
+	font-family: "微软雅黑";
+	padding-left: 7px;
+}
+
+.font-3 {
+	font-size: 14px;
+	color: #307ecc;
+	line-height: 26px;
+	font-family: "微软雅黑";
+	padding-left: 7px;
+}
+
+.zengjia {
+	display: inline-block;
+	width: 90px;
+	height: 34px;
+	margin-right: 20px;
+	background-color: #ffb752;
+}
+
+.jianshao {
+	display: inline-block;
+	width: 90px;
+	height: 34px;
+	margin-right: 20px;
+	background-color: #87b87f;
+}
+
+.biangeng {
+	display: inline-block;
+	width: 90px;
+	height: 34px;
+	margin-right: 20px;
+	background-color: #6fb3e0;
+}
+
+.buzheng {
+	display: inline-block;
+	width: 90px;
+	height: 34px;
+	margin-right: 20px;
+	background-color: #ffb752;
+}
+
+.huanzheng {
+	display: inline-block;
+	width: 90px;
+	height: 34px;
+	margin-right: 20px;
+	background-color: #d15b47;
+}
+
+.piliang {
+	display: inline-block;
+	width: 76px;
+	height: 26px;
+	margin-right: 20px;
+	background-color: #fee188;
+	font-size: 14px;
+	color: #9e6c39;
+	line-height: 26px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.daochu {
+	display: inline-block;
+	width: 88px;
+	height: 26px;
+	margin-right: 20px;
+	background-color: #d9edf7;
+	font-size: 14px;
+	color: #307ecc;
+	line-height: 26px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+
+/*从业人员行政审批结束*/
+
+
+/*营运车辆行政审批开始*/
+
+.checkbox1 {
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+
+/*营运车辆行政审批结束*/
+
+
+/*经营业户行政审批开始*/
+
+#radio1 {
+	vertical-align: middle;
+	margin-top: 0px;
+}
+
+.tijiao {
+	display: inline-block;
+	width: 76px;
+	height: 26px;
+	background-color: #fee188;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 26px;
+}
+
+.zancun {
+	display: inline-block;
+	width: 76px;
+	height: 26px;
+	background-color: #d9edf7;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 26px;
+}
+
+.td-bg {
+	background-color: #1796f0;
+	color: white;
+}
+
+.td-bg1 {
+	background-color: #87B97E;
+	color: white;
+}
+
+.td-bg2 {
+	background-color: #FFB752;
+	color: white;
+}
+
+.td-bg3 {
+	background-color: #A1A1A1;
+	color: white;
+}
+
+
+/*经营业户行政审批结束*/
+
+
+/*信息比对开始*/
+
+#radio {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+
+/*信息比对结束*/
+
+
+/*经营业户信息查询开始*/
+
+.daochu2 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	background-color: #d9edf7;
+	margin-top: -5px;
+	margin-left: 15px;
+}
+
+.daochu2-1 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 84%;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: -13px;
+}
+
+
+/*经营业户信息查询结束*/
+
+
+/*营运车辆信息查询开始*/
+
+.daochu3 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 824px;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: -50px;
+}
+
+
+/*营运车辆信息查询结束*/
+
+
+/*从业人员信息查询开始*/
+
+.daochu4 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 1040px;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: -50px;
+}
+
+
+/*从业人员信息查询结束*/
+
+
+/*订单信息开始*/
+
+.order {
+	width: 800px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 0px 20px;
+}
+
+.order-search {
+	margin-top: 20px;
+}
+
+
+/*订单信息结束*/
+
+
+/*车辆监控开始*/
+
+.order-search1 {
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#map {
+	width: 100%;
+	height: 70%;
+	border: 5px solid #f5f5f5;
+	float: right;
+}
+
+.left {
+	float: left;
+	width: 35%;
+	height: 100%;
+	/*margin-top: 11px;*/
+	border: 5px solid #f5f5f5;
+}
+
+.input1 {
+	vertical-align: bottom;
+}
+
+.span1 {
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.dright {
+	position: relative;
+	right: 0;
+	-webkit-transition: right 0.3s;
+	-moz-transition: right 0.3s;
+	transition: right 0.3s;
+}
+
+.dright {
+	width: 340px;
+	height: 500px;
+	background: #fff;
+	position: fixed;
+	right: -510px;
+	top: 11px;
+	border: 5px solid #f5f5f5;
+	z-index: 99999;
+}
+
+.mobile-right {
+	right: 510px;
+}
+
+.mobile-menu-right {
+	right: 0px;
+}
+
+.dright_time_span {
+	display: inline-block;
+	font-size: 14px;
+	margin: 20px;
+}
+
+.order_span {
+	display: inline-block;
+}
+
+.dright_search {
+	border: 3px solid #f5f5f5;
+	width: 330px;
+	height: 100px;
+	margin: 200px 0px auto;
+}
+
+.span_xiangqing {
+	display: inline-block;
+	width: 55px;
+	height: 30px;
+	background: url(../../img/xiangqing.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.span_cheliangjiankong {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: url(../../img/cheliangjiankong.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.span_lishiguiji {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: url(../../img/lishiguiji.png) no-repeat center center;
+	border: 1px solid #33A4F3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button-group2 {
+	position: absolute;
+	font-size: 12px;
+	padding: 3px;
+	float: right;
+	margin-right: 35%;
+	margin-top: 10px;
+}
+
+.span_car {
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	background: url(../../../img/map/bluecar_16_20.png) no-repeat left center;
+}
+
+.font_car {
+	display: inline-block;
+	line-height: 20px;
+	margin-left: 20px;
+}
+
+.span_men {
+	display: inline-block;
+	width: 85px;
+	height: 20px;
+	background: url(../../../img/map/redprson_16x20.png) no-repeat left center;
+}
+
+.span_car2 {
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	background: url(../../../img/map/blueline_16x20.png) no-repeat left center;
+}
+
+.span_men2 {
+	display: inline-block;
+	width: 85px;
+	height: 20px;
+	background: url(../../../img/map/redline_16x20.png) no-repeat left center;
+}
+
+
+/*车辆监控结束*/
+
+
+/*报警管理开始*/
+
+.quankuang {
+	width: 49%;
+	height: 210px;
+	float: left;
+	margin-top: 20px;
+	border: 2px solid #cccccc;
+}
+
+.top1 {
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+	background-color: #f7f7f7;
+}
+
+.quankuang-2 {
+	width: 49%;
+	height: 210px;
+	float: right;
+	margin-top: 20px;
+	border: 2px solid #cccccc;
+}
+
+.span-4 {
+	display: block;
+	border-bottom: 2px solid #cccccc;
+	height: 60px;
+}
+
+.span-5 {
+	display: inline-block;
+	border-right: 2px solid #cccccc;
+	width: 50%;
+	height: 100%;
+}
+
+.span-6 {
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	margin-left: 10px;
+}
+
+.span-5-1 {
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	margin-left: 45px;
+	float: left;
+	padding-top: 3px;
+}
+
+.span-5-2 {
+	float: left;
+	line-height: 22px;
+}
+
+.span-7 {
+	display: block;
+	float: left;
+	margin-top: 5px;
+	color: #1E9FFF;
+	padding-left: 14px;
+}
+
+.span-8 {
+	display: block;
+	float: left;
+}
+
+.daochu5 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 20px;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: 10px;
+}
+
+
+/*报警管理结束*/
+
+
+/*运力调度开始*/
+
+.button-group {
+	position: absolute;
+	font-size: 12px;
+	padding: 8px;
+	float: right;
+	margin-right: 45%;
+	margin-top: -491px;
+}
+
+.span_zhongche {
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	background: url(../../../img/3.png) no-repeat left center;
+}
+
+.font_zhongche {
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 18px;
+}
+
+.span_kongche {
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	background: url(../../../img/2.png) no-repeat left center;
+}
+
+.caozuo {
+	width: 30%;
+	height: 500px;
+	border: 5px solid #f5f5f5;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.caozuo1 {
+	width: 600px;
+	height: 500px;
+	border: 5px solid #f5f5f5;
+	margin-top: 10px;
+	position: absolute;
+	top: 0px;
+	left: 510px;
+}
+
+#operate_right {
+	border: 5px solid #f5f5f5;
+	height: 500px;
+	width: 65%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
+/*运力调度结束*/
+
+
+/*历史记录开始*/
+
+
+/*历史记录结束*/
+
+
+/*月考核开始*/
+
+.font-4 {
+	color: #33A4F0;
+}
+
+.font-4:hover {
+	color: black;
+}
+
+.font5 {
+	color: #33A4F0;
+}
+
+.font5:hover {
+	color: #33A4F0;
+}
+
+.font6 {
+	color: black;
+}
+
+.font6:hover {
+	color: black;
+}
+
+
+/*月考核结束*/
+
+
+/*从业人员分析开始*/
+
+.quanju {
+	height: 1380px;
+	margin-top: 20px;
+}
+
+.top {
+	height: 54px;
+	background-color: #dff0d8;
+}
+
+.font-7 {
+	color: #468847;
+	font-size: 16px;
+	line-height: 54px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.biao1 {
+	width: 48%;
+	float: left;
+	border: 2px solid #cccccc;
+}
+
+.biao-top {
+	height: 30px;
+	border-bottom: 2px solid #cccccc;
+	background-color: #f7f7f7;
+}
+
+.span-1 {
+	color: #888888;
+	font-size: 10px;
+	display: inline-block;
+}
+
+.span-2 {
+	color: #3a87ad;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.biao2 {
+	width: 48%;
+	float: right;
+	border: 2px solid #cccccc;
+}
+
+.biao3 {
+	width: 100%;
+	float: left;
+	border: 2px solid #cccccc;
+	margin-top: 20px;
+}
+
+.biao4 {
+	width: 32%;
+	float: left;
+	border: 2px solid #cccccc;
+	margin-top: 20px;
+}
+
+.biao5 {
+	width: 32%;
+	float: left;
+	border: 2px solid #cccccc;
+	margin-top: 20px;
+	margin-left: 1.2%;
+}
+
+.biao6 {
+	width: 32%;
+	float: right;
+	border: 2px solid #cccccc;
+	margin-top: 20px;
+}
+
+
+/*从业人员分析结束*/
+
+
+/*车辆分析开始*/
+
+.clfx-1 {
+	height: 520px;
+	border: 2px solid #bce8f1;
+}
+
+.clfx-2 {
+	height: 54px;
+	background-color: #d9edf7;
+}
+
+.clfx-3 {
+	color: #3a87ad;
+	font-size: 16px;
+	line-height: 54px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.cyry {
+	height: 50px;
+	border-bottom: 2px solid #bce8f1;
+	line-height: 50px;
+	color: #3a87ad;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.cyry img {
+	margin-right: 10px;
+}
+
+.biao7 {
+	width: 100%;
+	height: 400px;
+}
+
+.dierbufen {
+	height: 480px;
+}
+
+.biao8 {
+	width: 48%;
+	float: left;
+	margin-top: 20px;
+	border: 2px solid #cccccc;
+}
+
+.biao8-top {
+	height: 30px;
+	border-bottom: 2px solid #cccccc;
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+.select2 {
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-left: 30%;
+	margin-top: 2px;
+	position: absolute;
+}
+
+.biao11 {
+	width: 48%;
+	float: right;
+	margin-top: 20px;
+	border: 2px solid #cccccc;
+}
+
+
+/*车辆分析结束*/
+
+
+/*企业运营开始*/
+
+.clfx-4 {
+	color: #3a87ad;
+	font-size: 16px;
+	line-height: 54px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+
+/*企业运营结束*/
+
+
+/*运力需求开始*/
+
+.biao9 {
+	width: 32%;
+	float: left;
+	border: 2px solid #cccccc;
+	margin-top: 10px;
+	margin-right: 1.3%;
+}
+
+.biao10 {
+	width: 32%;
+	float: right;
+	border: 2px solid #cccccc;
+	margin-top: 10px;
+}
+
+.biao9-top {
+	height: 30px;
+	border-bottom: 2px solid #cccccc;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.span-3 {
+	color: red;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.img-2 {
+	height: 28px;
+	padding-top: 5px;
+}
+
+.paihang {
+	height: 31px;
+	line-height: 29px;
+}
+
+.yuandian {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+
+/*运力需求结束*/
+
+
+/*信息查询-先上线下开始*/
+
+.daochu6 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 750px;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: -50px;
+}
+.rtF8F8F8{
+	background-color: #F8F8F8;
+}
+.trffffff {
+	background-color: #ffffff;
+}
+.trf6f6ff {
+	background-color: #f6f6ff;
+}
+
+.trfff9e7 {
+	background-color: #fff9e7;
+}
+
+.trfff1fe {
+	background-color: #fff1fe;
+}
+
+
+/*信息查询-先上线下结束*/
+
+
+/*驾驶员信用信息开始*/
+
+.daochu7 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 974px;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: -29px;
+}
+
+
+/*驾驶员信用信息结束*/
+
+
+/*合乘车基本信息查询开始*/
+
+.daochu8 {
+	display: inline-block;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 320px;
+	background-color: #d9edf7;
+	float: left;
+	margin-top: -50px;
+}
+
+
+/*合乘车基本信息查询结束*/
+
+
+/*合乘车订单信息查询开始*/
+
+#map2 {
+	width: 100%;
+	height: 450px;
+	border: 5px solid #f5f5f5;
+	float: right;
+}
+
+#map3 {
+	width: 100%;
+	height: 450px;
+	border: 5px solid #f5f5f5;
+	float: right;
+}
+
+
+/*合乘车订单信息查询结束*/

@@ -1,0 +1,60 @@
+body {
+	color: #222;
+	-webkit-text-size-adjust: none;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.dright {
+	position: relative;
+	right: 0;
+	-webkit-transition: right 0.3s;
+	-moz-transition: right 0.3s;
+	transition: right 0.3s;
+}
+
+.dright {
+	width: 340px;
+	height: 500px;
+	background: #fff;
+	position: fixed;
+	right: -510px;
+	top: 11px;
+	border: 0px solid #f5f5f5;
+	z-index: 99999;
+	opacity: 0.7;
+}
+p.my-desc {
+        margin: 5px 0;
+        line-height: 150%;
+    }
+.mobile-right {
+	right: 510px;
+}
+
+.mobile-menu-right {
+	right: 0px;
+}
+
+.dright_time_span {
+	display: inline-block;
+	font-size: 14px;
+	margin: 20px;
+}
+
+.order_span {
+	display: inline-block;
+}
+
+.dright_search {
+	border: 3px solid #f5f5f5;
+	width: 330px;
+	height: 100px;
+	margin: 200px 0px auto;
+}
+
+.checkboxblue {
+	background: url(${ctx}/static/assets/img/blue.png) no-repeat;
+}

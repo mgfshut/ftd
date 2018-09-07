@@ -1,0 +1,64 @@
+#container{
+    width: 78.4%;
+}
+.box-search{
+    position: absolute;
+    width: 21.6%;
+    /*height: 70%;*/
+    top: 0;
+    right: 0;
+    padding-left: -20px;
+    border-left:1px solid #ccc;
+}
+.nav-search{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: auto;
+}
+.box-icon{
+    width: 15px;
+    height: 3%;
+    position: absolute;
+    top:45%;
+    left: -27px;
+    border: 1px solid #EEEEEE;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 15px 5px;
+    background: #fff;
+}
+/*.box-icon .layui-icon{
+	position: absolute;
+	top: 45%;
+}*/
+.box-icons{
+    position: absolute;
+    top: -28px;
+    left: 45%;
+    width: 3%;
+    text-align: center;
+    border: 1px solid #EEEEEE;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 5px 15px;background: #fff;
+}
+.btn-active, .btn-actives{
+    color: #333;font-weight: bold;cursor: pointer;
+}
+.box-inq{
+    background: #fff;padding: 10px;
+}
+.box-inq input{
+    width: 98%;height: 25px;border-width:1px;border-radius:4px;
+}
+.ztree-box{
+    background: #fff;padding: 5px;height: 38%;overflow: auto;
+}
+.layui-table tbody tr:hover{
+    background-color:#5db2ff4d;
+}
+.layui-table thead tr{
+    background-color: #f9f9f9;
+}

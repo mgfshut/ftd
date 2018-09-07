@@ -1,0 +1,32 @@
+
+body{
+    padding: 0px;
+}
+
+.top-img{
+    width: 20px;float: right;margin-top: 6px;margin-right: 10px;cursor: pointer;
+}
+.more-inf{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    max-height: 410px;
+    overflow: auto;
+}
+.more-inf .layui-table{
+    margin-top: 0px;
+}
+.more-inf .layui-table img{
+    cursor: pointer;
+}
+.custom-ons{
+    display: none;
+}
+.calendar-dates{
+    /*background: #333;*/
+}
+.date-text-succe{
+    background-color: #00CED1;
+    color: #fff;
+}
+

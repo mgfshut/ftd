@@ -1,0 +1,148 @@
+/*初始化样式*/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/* Firefox */
+	-webkit-box-sizing: border-box;
+	/* Safari */
+}
+.overflow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+button{
+	outline: none;
+	border: 0px;
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+}
+input{
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+	outline: none;
+}
+a {
+	outline: none;
+}
+a,button{cursor:pointer;} 
+
+body {
+	background: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑", "PingFang SC", "arial, helvetica, sans-serif";
+}
+.clear {
+	clear: both;
+}
+.pic img{display: none;}
+i,p,h1,h2,h3,h4,h5,h6,hr,br,em,dl,dd,li,ul,ol,td,th,pre,form,body,input,strong,textarea,select,figcaption,figure{
+	margin: 0;
+	padding: 0;
+}
+em {
+	font-style: normal
+}
+li {
+	list-style: none
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+	
+}
+table {
+	border-collapse: collapse;
+	line-height: 30px;
+}
+textarea {
+	resize: none;
+	overflow: auto;
+}
+a,button{cursor:pointer;} 
+/*以上为reset样式*/
+/*页面样式*/
+body{width: 595px;height: 842px; margin: 0 auto;}
+/*顶部样式*/
+.top-title{
+	width: 593px;	
+}
+.top-title p{
+	text-align: center;	
+}
+.top-title .title-pc1{font-size: 16px;}
+.top-title .title-pc2{font-size: 24px;font-weight: bold;font-family: "新宋体";}
+.head-seal{display: inline-block;margin-left: 55px;}
+.head-number{display: inline-block;float: right;margin-right: 50px;}
+
+/*页面内容样式*/
+.centent{
+			width: 490px; 
+			height: 672px; 
+			border: 1px solid #000000; 
+			margin:0 auto;
+			text-align: center;
+		}
+.centent ul{line-height: 30px;font-size: 14px;}
+
+.list-dec{width: 75px;border-right: 1px solid #333;float: left;}
+.float{float: left;}
+.clear{clear: both;}
+.clear-two{overflow: hidden;}
+
+.border-black{border-bottom: 1px solid #333;}
+
+.contacts{width: 75px;line-height: 60px; border-right: 1px solid #333;}
+.contacts1{width: 75px; border-right: 1px solid #333;}
+.contacts-name{width: 80px;float: left;line-height: 61px;}
+.contacts-name1{width: 80px;float: left;}
+.contacts-two{float: left;width: 333px;}
+
+
+.contacts-fat{border-bottom:  1px solid #333; border-left:  1px solid #333;overflow: hidden;}
+.contacts-fat1{ border-left:  1px solid #333;overflow: hidden;}
+.contacts-bro{border-left:  1px solid #333;overflow: hidden;}
+.contacts-call{display: block;width: 100px;border-right: 1px solid #333;float: left;}
+.contacts-pho{display: block;width: 100px;border-right: 1px solid #333;float: left;}
+.contacts-num{display: block;width: 150px;float: left;}
+
+
+.list-item{width: 75px;border-right: 1px solid #333;float: left;}
+.materials-list{width: 75px;height: 455px; border-right: 1px solid #333;float: left;}
+.materials-list-title{width: 15px;display: block; margin: 0px auto;padding-top: 30px;}
+.inform{width: 75px;height: 90px; border-right: 1px solid #333;float: left;}
+.promise{width: 75px;height: 60px; border-right: 1px solid #333;float: left;}
+.accept{display: block;width: 75px;border-right: 1px solid #333;float: left;}
+.accept-time{display: block;width: 98px;border-right: 1px solid #333;float: left;}
+.workday{display: block;width: 90px;float: left;}
+.sign{width: 75px;height: 60px; border-right: 1px solid #333;float: left;}
+/*底部样式*/
+.footer-p{width: 488px;margin: 0 auto;}
+/*编辑框样式*/
+.input{border-style: none;display: inline-block;width: 65px;padding-left: 10px;}
+/*note2的样式*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

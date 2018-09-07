@@ -1,0 +1,172 @@
+/*初始化样式*/
+
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,button,form,input,textarea,p,th,td {   
+　　padding: 0;   
+　　margin: 0;   
+}
+  ul li {list-style: none;}
+  a,input,button{ outline:none; cursor: pointer;}
+  textarea { resize:none; }
+  input,button,textarea,select,option {
+    font-family:inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+ }
+ h1,h2,h3,h4,h5,h6 {   
+　　 font-weight: normal;   
+　　 font-size: 100%;   
+ } 
+ input{border-style: none;display: inline-block;} 
+ .clear {clear:both;}
+   /*布局开始*/  
+body{
+	width: 100%;height: 100%;
+	font-family: "微软雅黑";font-size: 12px;box-sizing: border-box;
+}
+
+
+		.page1{
+			width: 1107px; 
+			height: 790px;
+			margin: 40px auto;  
+			border: 1px solid ;
+			font-size:20px ;
+			border-color:transparent;
+		}
+		.page_img{
+			position: absolute;
+  			margin: 0 auto;
+  			left: 50%;
+  			top: 60px;
+  			margin-left: -50px;
+		}
+		.centent{
+			width: 1025px; 
+			height: 708px; 
+			border: 1px solid ; 
+			margin: 41px;
+			border-color:transparent;
+		}
+		.cen{
+			width: 925px;
+			height: 608px;
+			border: 1px solid ;
+			border-color:transparent;
+			margin: 50px;
+			text-align: center;
+		}
+		.cen_font1{
+			font-size: 52px;
+			font-weight: bold;
+			margin: 30px auto;
+			letter-spacing: 16px ;
+		}
+		.cen_font2{
+			font-family: serif;
+			font-weight: bold;
+			font-size: 62px;
+			margin: 20px auto;
+			letter-spacing: 2px ;
+		}
+		.cen_font3{
+			font-size: 20px;
+			margin-left: 448px;
+			margin-right: 90px;
+		}
+		.cen_font5{
+			font-size: 20px;
+			margin-left: 143px;
+			font-weight: bold;
+			margin-top: 30px;
+			text-align: left;
+		}
+		.cen_font6{
+			letter-spacing: 10px;
+    		margin-right: 174px;
+    		text-align: right;
+			font-size: 20px;
+			margin-top: 50px;
+		}
+		.cen_font7{
+			font-size: 20px;
+			margin-left: 59px;
+			margin-top: 45px;
+			text-align: left;
+			margin-bottom: 48px;
+		}
+		
+		
+		/*第二页样式*/
+		.dibu{
+			margin-right: 5px;
+			text-align: right;
+			line-height: 38px;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.page2{    
+			overflow: hidden;
+    	width: 734px;
+    	height: 489px;
+    	margin: 0 auto;
+    	font-size: 16px;
+    	font-weight: bold;
+    	}
+		.zhengmian{
+			width: 365px;
+			height: 485px;
+			border: 1px solid ;
+			float: left;
+			border-color:transparent;
+		}
+		.pagee2-border1{
+			width: 309px;height: 441px;margin: 22px 28px;border: 1px solid;
+			border-color:transparent;
+		}
+		.pagee2-border2{
+			width: 287px;height: 419px;margin: 11px;border: 1px solid;
+			border-color:transparent;
+		}
+		.zm_top{
+			font-size: 25px;
+			letter-spacing: 3px;
+			margin: 30px 0 30px 40px;
+		}
+		.zm_top2{
+			font-family: "宋体";
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		.zm_top3{
+			font-size: 25px;
+			margin: 30px 0 30px 85px;
+		}
+		.zm_top4{
+			margin-left: 20px;
+		}
+		.zm_top5{
+			margin-top: 60px;
+			margin-left: 65px;
+		}
+		.zm_top51{
+			margin-top: 20px;
+			margin-left: 120px;
+		}
+		.zm_top6{
+			margin-top: 50px;
+			margin-left: 30px;
+		}
+		.zm_top61{
+			margin-top: 28px;
+			margin-left: 30px;
+		}
+		.zm_top7{
+			margin-top: 45px;
+			margin-left: 30px;
+		}
+		.zm_top8{
+			margin-top: 17px;
+			margin-left: 30px;
+		}
+		
