@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="gjxx-system"  />
+  
+    <!-- 使用 zookeeper -->
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
+     <!-- 用dubbo协议在10001端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="10001" />
+
+	<!-- 声明需要暴露的服务接口 -->
+	<dubbo:service interface="com.gjxx.system.service.DictDefineService" ref="dictDefineService" />
+	<dubbo:service interface="com.gjxx.system.service.DictDetailService" ref="dictDetailService" />
+	<dubbo:service interface="com.gjxx.system.service.MenuService" ref="menuService" />
+	<dubbo:service interface="com.gjxx.system.service.OperateLogService" ref="operateLogService" />
+	<dubbo:service interface="com.gjxx.system.service.RoleMenuRelService" ref="roleMenuRelService" />
+	<dubbo:service interface="com.gjxx.system.service.RoleService" ref="roleService" />
+	<dubbo:service interface="com.gjxx.system.service.UserBackService" ref="userBackService" />
+	<dubbo:service interface="com.gjxx.system.service.UserRoleRelService" ref="userRoleRelService" />
+
+
+	<!-- 和本地bean一样实现服务 -->
+	<bean id="dictDefineService" class="com.gjxx.system.service.impl.DictDefineServiceImpl" />
+	<bean id="dictDetailService" class="com.gjxx.system.service.impl.DictDetailServiceImpl" />
+	<bean id="menuService" class="com.gjxx.system.service.impl.MenuServiceImpl" />
+	<bean id="operateLogService" class="com.gjxx.system.service.impl.OperateLogServiceImpl" />
+	<bean id="roleMenuRelService" class="com.gjxx.system.service.impl.RoleMenuRelServiceImpl" />
+	<bean id="roleService" class="com.gjxx.system.service.impl.RoleServiceImpl" />
+	<bean id="userBackService" class="com.gjxx.system.service.impl.UserBackServiceImpl" />
+	<bean id="userRoleRelService" class="com.gjxx.system.service.impl.UserRoleRelServiceImpl" />
+	
+	<import resource="applicationContext.xml" />
+
+</beans>

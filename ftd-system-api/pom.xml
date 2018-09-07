@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.gjxx</groupId>
+    <artifactId>ftd</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>ftd-system-api</artifactId>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+	<dependency>
+		<groupId>com.gjxx</groupId>
+		<artifactId>ftd-core</artifactId>
+		<version>${project.parent.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>com.google.guava</groupId>
+		<artifactId>guava</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>com.baomidou</groupId>
+		<artifactId>mybatis-plus</artifactId>
+	</dependency>
+      <!-- activiti -->
+      <dependency>
+          <groupId>org.activiti</groupId>
+          <artifactId>activiti-engine</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.activiti</groupId>
+          <artifactId>activiti-spring</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.activiti</groupId>
+          <artifactId>activiti-modeler</artifactId>
+      </dependency>
+  </dependencies>
+  
+  <distributionManagement>
+        <snapshotRepository>  
+            <id>snapshots</id>  
+            <name>Nexus Snapshot Repository</name> 
+            <url>http://101.37.17.187:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gjxx.system.dao.DictDetailMapper" >
+    <resultMap id="BaseResultMap" type="com.gjxx.system.entity.DictDetail" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="dict_define_id" property="dictDefineId" jdbcType="INTEGER" />
+        <result column="dict_detail_name" property="dictDetailName" jdbcType="VARCHAR" />
+        <result column="dict_detail_value" property="dictDetailValue" jdbcType="CHAR" />
+        <result column="dict_detail_describe" property="dictDetailDescribe" jdbcType="VARCHAR" />
+        <result column="dict_detail_status" property="dictDetailStatus" jdbcType="CHAR" />
+        <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+        <result column="update_time" property="updateTime" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,dict_define_id,dict_detail_name,dict_detail_value,dict_detail_describe,dict_detail_status,create_time,update_time
+    </sql>
+
+</mapper>

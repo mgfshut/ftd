@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gjxx.system.dao.MenuMapper" >
+    <resultMap id="BaseResultMap" type="com.gjxx.system.entity.Menu" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="parent_id" property="parentId" jdbcType="INTEGER" />
+        <result column="menu_name" property="menuName" jdbcType="VARCHAR" />
+        <result column="menu_type" property="menuType" jdbcType="CHAR" />
+        <result column="menu_url" property="menuUrl" jdbcType="VARCHAR" />
+        <result column="menu_icon" property="menuIcon" jdbcType="VARCHAR" />
+        <result column="menu_status" property="menuStatus" jdbcType="CHAR" />
+        <result column="menu_seq" property="menuSeq" jdbcType="VARCHAR" />
+        <result column="create_user" property="createUser" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+        <result column="update_user" property="updateUser" jdbcType="VARCHAR" />
+        <result column="update_time" property="updateTime" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,parent_id,menu_name,menu_type,menu_url,menu_icon,menu_status,menu_seq,create_user,create_time,update_user,update_time
+    </sql>
+
+    <select id="getAllowedMenu" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+        SELECT distinct a.* FROM sys_menu a LEFT JOIN sys_role_menu_rel b ON a.id = b.menu_id LEFT JOIN sys_role c ON b.role_id = c.id
+        LEFT JOIN sys_user_role_rel d ON c.id = d.role_id LEFT JOIN sys_user_back e ON d.user_id = e.id
+        WHERE e.id = #{id} AND c.role_status = '01' ORDER BY a.menu_seq
+    </select>
+
+</mapper>
