@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gjxx.ftd.dao.CompanyMapper" >
+    <resultMap id="BaseResultMap" type="com.gjxx.ftd.entity.Company" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="full_name" property="fullName" jdbcType="VARCHAR" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="belong_type" property="belongType" jdbcType="CHAR" />
+        <result column="unified_social_credit_code" property="unifiedSocialCreditCode" jdbcType="CHAR" />
+        <result column="nature" property="nature" jdbcType="CHAR" />
+        <result column="establishmen_date" property="establishmenDate" jdbcType="VARCHAR" />
+        <result column="linkman" property="linkman" jdbcType="VARCHAR" />
+        <result column="link_way" property="linkWay" jdbcType="VARCHAR" />
+        <result column="office_phone" property="officePhone" jdbcType="VARCHAR" />
+        <result column="business_license" property="businessLicense" jdbcType="VARCHAR" />
+        <result column="business_scope" property="businessScope" jdbcType="VARCHAR" />
+        <result column="nuclear_authority" property="nuclearAuthority" jdbcType="VARCHAR" />
+        <result column="nuclear_date" property="nuclearDate" jdbcType="VARCHAR" />
+        <result column="valid_start_time" property="validStartTime" jdbcType="VARCHAR" />
+        <result column="valid_end_time" property="validEndTime" jdbcType="VARCHAR" />
+        <result column="evidence_state" property="evidenceState" jdbcType="CHAR" />
+        <result column="create_user" property="createUser" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+        <result column="update_user" property="updateUser" jdbcType="VARCHAR" />
+        <result column="update_time" property="updateTime" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,full_name,name,belong_type,unified_social_credit_code,nature,establishmen_date,linkman,link_way,office_phone,business_license,business_scope,nuclear_authority,nuclear_date,valid_start_time,valid_end_time,evidence_state,create_user,create_time,update_user,update_time
+    </sql>
+
+</mapper>
