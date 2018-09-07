@@ -1,0 +1,279 @@
+/*初始化样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,button,form,input,textarea,p,th,td {   
+　　padding: 0;   
+　　margin: 0;   
+}
+ul li {list-style: none;}
+a,input,button{ outline:none; cursor: pointer;}
+textarea { resize:none; }
+input,button,textarea,select,option {
+	font-family:inherit;
+	font-size:inherit;
+	font-style:inherit;
+	font-weight:inherit;
+}
+a:hover{
+	text-decoration: none;
+} 
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+   /*布局开始*/  
+body{
+	font-family: "微软雅黑";
+	font-size: 12px; 
+	margin: 0;
+	padding: 0px;
+	border-style: none;
+}
+.header{
+	height: 120px;
+	line-height: 120px;
+	padding-left: 7%;
+}
+.header .logo-img, .header span{
+	float: left;
+}
+.header .logo-img{
+	width: 60px;
+	height: 60px;
+	margin: 30px 10px;
+}
+
+.header span{
+	font-size: 34px;
+	font-weight: bold;
+	color: #42627c;
+}
+#login_dialog { 
+	position: relative;
+	width: 100%;       
+  /*禁止复制粘贴*/  
+  -moz-user-select: none;  
+  -webkit-user-select: none;  
+  user-select:none;  
+} 
+#login_dialog .login-bg{
+	width: 100%;
+	height: 400px;
+}
+.loginbar{
+	position: absolute;
+	top: 7%;
+	right: 10%;
+	width: 370px; 
+	background-color:#fff;
+}
+.register_title {  
+  line-height: 35px;  
+  margin: 0 5px;  
+} 
+.register_margin {
+	width: 10px; height: 70px;
+}  
+.register_info {  
+  text-align: center;
+  color: #e6c391;  
+  font-size: 28px;  
+}  
+
+.loginbar form{
+	
+}  
+.login-title{
+	padding: 25px 0 5px 35px;
+	border-bottom: 1px solid #ccc;
+}
+.login-title span{
+	font-size: 16px;
+}
+input[type = "submit"]:hover{cursor: pointer;}  
+.reg-box { 
+	padding:0 35px;
+	margin-bottom: 0; 
+	margin-top: 30px;
+}  
+.reg-box li { 
+	line-height: 44px; 
+	width: 500px; 
+	overflow: hidden; 
+}  
+.reg-box li label { 
+	width: 65px; 
+	height: 25px; 
+	float: left; 
+	line-height: 25px; 
+	text-align: right; 
+	padding-right: 15px;
+	color: #666;
+	margin-left: 5px; 
+}  
+.reg-box li input{ 
+	padding: 6px 0; 	
+	width: 88%; 
+	height: 20px; 
+	line-height: 20px;
+	border-right-style:none;
+	border: 1px solid #dddddd;
+	border-left-style: none;
+	background-color: #f7f8fa;
+	text-indent: 0.5em; 
+	float: left; 
+} 
+.form-img{
+	float: left;
+	padding: 4px 0 4px 6px;
+	border: 1px solid #ddd;
+	ine-height: 10px;
+	border-right-style: none;
+	background-color: #f7f8fa;
+	line-height: 10px;
+}
+.form-img img{
+	padding:2px 6px 2px 0;
+	border-right: 1px solid #ddd;
+}
+.reg-box .freshen-img{
+	margin-left: 10px;
+	cursor: pointer;
+}  
+.add { 
+	width: 80px;
+	height: 33px; 
+	float: left;
+	cursor: pointer; 
+	margin-left: 20px;
+}  
+.reg-box li .sradd {
+	width: 155px; 
+	text-indent: 4px;
+	font-size: 14px; 
+	color:#999;
+	border-left: 1px solid #ddd;
+	ime-mode:disabled;
+	-webkit-ime-mode:inactive;
+}
+
+.reg-box li .input-code { 
+	width: 106px; 
+	padding: 10px;
+	font-family: Arial;
+	font-style: italic;
+	color: red; 
+	letter-spacing: 1px;
+	cursor: pointer; 
+	text-align: center; 
+	text-indent: 0; 
+}  
+.yzm,.phoKey { 
+	background: #c6eafd; 
+	text-align: center; 
+	line-height: 35px; 
+	color: #12409c; 
+}  
+.phoKey{
+	letter-spacing: 3px; 
+	font-size:20px;
+}  
+.yzmc {
+	background: #dddddd; 
+	text-align: center; 
+	line-height: 44px; 
+	color: #999; 
+}  
+.error {
+	clear:both;
+	display:block;
+	color: red; 
+	padding-left: 5px; 
+	height:20px;
+	float: left; 
+	line-height: 20px;
+}  
+.reg-box li { 
+ 	width: auto; 
+} 
+  
+.reg-box li input.errorC, .errorC{ 
+	border: 1px solid red; 
+}
+  
+.reg-box li input.checkedN, .checkedN{
+	border: 1px solid #1ece6d; 
+} 
+.account,.email{
+	color:#999;
+}
+.remember{
+	font-size: 14px;
+	padding: 15px 35px;
+	margin-bottom: 15px;
+}
+.remember input{
+	width: 15px;
+	margin-left: 0px;
+	margin-top: 4px;
+  float: left;
+}
+.remember label{
+	color: #999;
+}
+.remember a{
+	float: right; 
+	color: #33A4F0;
+}
+.sub{  
+  text-align: center;
+  padding: 0 35px;  
+}  
+.sub input {
+	display: inline-block;  
+	width: 100%;  
+	background-color: #4777cf;  
+	color: #fff;  
+	font-size: 16px;  
+	text-align: center;  
+	height: 35px;  
+	letter-spacing: 10px;
+	line-height: 34px;  
+	outline: none;  
+	border: none; 
+}  
+footer p{
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+	margin-top: 3%;
+}
+footer p a{
+	color: #333;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

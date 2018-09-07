@@ -1,0 +1,182 @@
+.redBorder{
+	border:1px solid red ;
+}
+.padding15{
+	padding: 15px;
+}
+.bg{
+	background-color: #f2f2f2;
+}
+.left{
+	float: left;
+	line-height: 45px;
+	font-family: "microsoft yahei";
+}
+.right{
+	float: right;
+	line-height: 45px;
+	font-family: "microsoft yahei";
+}
+.herderTitle{
+	height: 45px;
+	background-color: #fafafa;
+	border-bottom: 1px solid #e9e9e9;
+}
+.headerContent{
+	height: 189px;
+	background-color: #ffffff;
+	
+}
+.borderRightHeight{
+	
+}
+.borderline{
+	border: 1px solid #e9e9e9;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+.headerFooter{
+	height: 110px;
+	padding: 0px;
+}
+.carNumber{
+	height: 113px;
+	text-align: center;
+	margin-top: 38px;
+	border-left: 2px solid #ccc;
+}
+.numberTotal{
+	height: 65px;
+	line-height: 65px;
+	text-align: center;	
+	font-size: 58px;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	color: #da6b44;
+}
+.numberTotalGreen{
+	height: 65px;
+	line-height: 65px;
+	text-align: center;	
+	font-size: 58px;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	color: #4d897e;
+}
+.numberTrouble{
+	position: relative;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;	
+	font-size: 58px;
+     background: url(../../../img/home/waring.png) no-repeat center center;
+}
+.troubleAlt{
+	position: absolute;
+	top: -4%;
+	left: 60%;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: white;
+	border-radius: 50%;
+	background-color: #dd4e40;
+	box-shadow:0 1px 2px 0 rgba(0,0,0,.05);
+}
+.numberfont{
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	color: #333333;
+}
+.numberfontRed{
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	color: #dd4e40;
+}
+.headerFooter1{
+	padding-left: 0px;
+	height: 110px;
+	background: url(../../../img/home/taxiWhite.png) no-repeat 92% 100% #da6b44;
+}
+.headerFooter2{
+	padding-left: 0px;
+	height: 110px;
+	background-color: #f8e1da;
+	background: url(../../../img/home/taxiRed.png) no-repeat 92% 100% #f8e1da;
+}
+.headerFooter3{
+	padding-left: 0px;
+	height: 110px;
+	background-color: #fbf0ec;
+	background: url(../../../img/home/taxiRed.png) no-repeat 92% 100% #fbf0ec;
+}
+.headerFooter4{
+	padding-left: 0px;
+	height: 110px;
+	background-color: #e7b03d;
+	background: url(../../../img/home/carWhite.png) no-repeat 92% 100% #e7b03d;
+}
+.headerFooter5{
+	padding-left: 0px;
+	height: 110px;
+	background-color: #faefd8;
+	background: url(../../../img/home/carRed.png) no-repeat 92% 100% #faefd8;
+}
+.headerFooter6{
+	padding-left: 0px;
+	height: 110px;
+	background-color: #fdf7eb;
+	background: url(../../../img/home/carRed.png) no-repeat 92% 100% #fdf7eb;
+}
+.footerContent{
+	height: 81px;
+	text-align: center;
+}
+.footerNumber{
+	height: 55px;
+	line-height: 55px;
+	font-size: 32px;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	margin-left: 15px;
+	text-align: left;
+	color: white;
+}
+.footerArt{
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	font-weight: bolder;
+	margin-left: 15px;
+	text-align: left;
+	color: white;
+}
+.footerNumberBlack{
+	height: 55px;
+	line-height: 55px;
+	font-size: 32px;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	margin-left: 15px;
+	text-align: left;
+	color: black;
+}
+.footerArtBlack{
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	font-weight: bolder;
+	margin-left: 15px;
+	text-align: left;
+	color: black;
+}

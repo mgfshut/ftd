@@ -1,0 +1,11 @@
+/*用户功能模块公共样式*/
+.layui-tab fieldset{margin-top: 20px;}
+/*coach_car_look页面样式*/
+.layui-tab .layui-tab-title button{float: right; margin-right: 45px;margin-top: -5px;}
+.layui-tab .layui-tab-title button a{color: #fff;}
+.layui-table tbody tr .popup{text-decoration: none;text-align:right;}
+.layui-table tbody tr .popup .popup_more{}/*查看更多*/
+.layui-table tbody tr .popup .popup_del{margin-left: 130px;}/*删除*/
+.layui-table tbody tr .popup .popup_up{margin-left: 10px;}/*上传*/
+.layui-table tbody tr .popup .popup_alter{}/*修改*/
+.layui-table tbody tr .popup .popup_redact{margin-left: 100px;}/*编辑*/

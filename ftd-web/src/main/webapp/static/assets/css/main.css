@@ -1,0 +1,123 @@
+body{
+    padding: 10px;
+    font-size: 12px;
+}
+.layui-form{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    background-color: #F1F1F1;
+}
+.layui-form-item{
+    position: relative;
+    margin-bottom: 10px;
+}
+.btn-layui{
+    position: absolute;right: 10px;top: 0px;
+}
+.layui-input, .layui-select, .layui-textarea{
+    height: 30px;
+    border-radius: 5px;
+}
+.layui-btn{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.layui-btn+.layui-btn {
+    margin-left: 0px;
+}
+.layui-form-label{
+    width: 96px;
+    padding: 5px 8px;
+}
+.layui-form-item .layui-input-inline, .layui-input-block{
+    width: 155px;
+}
+.layui-form-item .layui-inline{
+    margin-bottom: 0;
+}
+.layui-table td{
+    font-size: 12px;padding: 6px;text-align: center;vertical-align: middle;
+}
+.layui-input-block{
+    margin-left: 113px;
+    min-height: 30px;
+}
+.layui-form-select{
+    width: 155px;
+}
+.layui-form-select dl{
+    top:32px;
+}
+.btn-box{
+    height: 30px;
+}
+.btn-layui .layui-btn-primary{
+    margin-left: 0px;
+    height:32px;
+}
+.tab-cancel{
+    padding: 25px; line-height: 22px; background-color: #f1f1f1; color: #333;
+}
+.layui-table.del-table{
+    margin-top: 0px;
+}
+.del-table.layui-table tr td:nth-child(odd){
+    background-color: #f1f1f1;
+}
+#frmtitle{
+    position: fixed;top: 0px;right: 0px;background-color: #fff;height: 100%;z-index: 999;box-sizing: border-box;
+}
+.box-icon{
+    position: absolute;top:45%; left: -27px;
+    background-color: #fff;cursor: pointer;
+    padding: 15px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px #eee solid;
+}
+.box-icon .layui-icon{
+    color: #333;
+}
+.box-inq{
+    padding: 10px;
+}
+.box-inq input{
+    width: 100%;height: 20px;
+}
+.line-content{
+    width: 220px;height: 100%;border: 1px solid #ccc;box-sizing: border-box;
+}
+.line-title{
+    background-color: #f1f1f1;
+    width: 100%;
+    line-height: 32px;
+    height: 30px;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    text-indent: 10px;
+}
+.line-content .inq-input{
+    padding:10px;
+}
+.line-content .inq-input input{
+    height: 20px;width: 100%;
+}
+#container{
+    position:relative;
+}
+.countPges{
+    position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.layui-laypage{
+    margin: 0;
+}
+#loading img{
+    width: 50px;
+}

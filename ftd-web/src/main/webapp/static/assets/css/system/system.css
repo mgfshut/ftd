@@ -1,0 +1,20 @@
+/***********************************************************************/
+/********************该css样式表主要用于“系统设置”公共样式**************************/
+.my-container {margin:15px;}
+/*查询框样式*/		
+	.custom-on,.custom-on1 {display: none;}/*隐藏“高级选项”功能时间段选区的样式*/		
+	.layui-form-item2{margin-bottom: 0px;}/*时间选区位置样式*/
+	.layui-form-item .custom-time{float: left; }		
+	.clear{clear: both;}/*清除时间选区样式的浮动*/		
+	.layui-elem-field{margin-top: 15px;}/*分割线位置样式*/
+
+/*列表样式*/
+.list-scrollbar{display: inline-block; width: 100%; height: auto; overflow: auto;}
+
+	.demo-pages{float: right;margin:15px 5px 15px 0px;}
+	.demo-pages1{float: left;}
+/*模板4的样式*/
+.wrap_left{float: left;}
+.wrap_right{float: right;}
+.tree_list{display: inline-block; vertical-align:top; width: 180px; padding: 10px; border: 1px solid #ddd; overflow: auto;}
+.tree_list1{display: inline-block; width: 100%; border: 1px solid #ddd; overflow: auto;}
