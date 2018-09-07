@@ -54,8 +54,7 @@
         </div>
         <footer>
             <p>
-                <a href="#">技术支持：国交信息股份有限公司</a>
-               <%-- <a href="#">版权所有：哈尔滨市交通运输局</a>--%>
+                <a href="#">技术支持：逐梦科技有限公司</a>
             </p>
         </footer>
         <%@include file="common/footer.jsp" %>
