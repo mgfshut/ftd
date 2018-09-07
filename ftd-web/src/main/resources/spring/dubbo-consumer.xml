@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+		 http://code.alibabatech.com/schema/dubbo
+         http://code.alibabatech.com/schema/dubbo/dubbo.xsd"> 
+	<dubbo:application name="ftd-web"  />
+ 
+    <dubbo:registry address="127.0.0.1:2181" protocol="zookeeper"/>
+
+	<dubbo:reference interface="com.gjxx.ftd.service.CompanyService" id="companyService" check="true" timeout="60000" retries="0"/>
+	<!-- 系统管理 -->
+	<dubbo:reference interface="com.gjxx.system.service.DictDefineService" id="dictDefineService" check="true" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.DictDetailService" id="dictDetailService" check="true" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.MenuService" id="menuService" check="true" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.OperateLogService" id="operateLogService" check="true" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.RoleMenuRelService" id="roleMenuRelService" check="false" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.RoleService" id="roleService" check="true" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.UserBackService" id="userBackService" check="true" timeout="10000"/>
+	<dubbo:reference interface="com.gjxx.system.service.UserRoleRelService" id="userRoleRelService" check="true" timeout="10000"/>
+
+</beans>

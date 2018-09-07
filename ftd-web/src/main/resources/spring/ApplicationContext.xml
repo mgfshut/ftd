@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context-3.2.xsd
+						http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+            http://www.springframework.org/schema/tx
+		     http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+
+    <context:component-scan base-package="com.gjxx.ftd">
+        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />-->
+    </context:component-scan>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"></bean>
+
+    <context:property-placeholder location="classpath:/config/*.properties"/>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:/config/*.properties</value>
+            </list>
+        </property>
+    </bean>
+    <import resource="classpath*:/spring/dubbo-consumer.xml" />
+
+
+    <!--<bean id="redisUtil" class="com.gjxx.ftd.utils.RedisUtil">
+        <property name="addr"><value>${master.redis.ip}</value></property>
+        <property name="port"><value>${master.redis.port}</value></property>
+        <property name="auth"><value>${master.redis.author}</value></property>
+        <property name="maxIdle"><value>${master.redis.max_idle}</value></property>
+        <property name="maxActive"><value>${master.redis.max_active}</value></property>
+        <property name="maxWait"><value>${master.redis.max_wait}</value></property>
+        <property name="timeOut"><value>${master.redis.timeout}</value></property>
+        <property name="testOnBorrow"><value>${testOnBorrow}</value></property>
+    </bean>-->
+
+    <!-- 定时任务-->
+    <import resource="classpath*:/spring/scheduler.xml"/>
+</beans>
+

@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+  http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+
+    <task:annotation-driven /> <!-- 定时器开关-->
+
+    <bean id="scheduler" class="com.gjxx.ftd.common.Scheduler"></bean>
+
+    <task:scheduled-tasks>
+        <!-- 每个整点统计一次数据 -->
+        <task:scheduled ref="scheduler" method="timingCountJob" cron="0 0 0/1 * * ?" />
+    </task:scheduled-tasks>
+</beans>

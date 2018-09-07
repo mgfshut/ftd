@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+     <mvc:annotation-driven />
+	<!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
+	<context:component-scan base-package="com.gjxx.ftd.controller" />
+	
+	<mvc:default-servlet-handler />
+	
+	<mvc:annotation-driven>
+		<mvc:message-converters register-defaults="true">
+			
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+				<constructor-arg value="UTF-8" />
+			</bean>
+			
+			<bean
+				class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				<property name="prettyPrint" value="true" />
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+	
+	
+	<!-- 定义跳转的文件的前后缀 ，视图模式配置-->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 这里的配置我的理解是自动给后面action的方法return的字符串加上前缀和后缀，变成一个 可用的url地址 -->
+		<property name="prefix" value="/WEB-INF/pages/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+
+
+	<mvc:interceptors>
+		<!--登陆拦截-->
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.gjxx.ftd.common.LoginInterceptor">
+				<property name="allowUrls">
+					<list>
+						<value>/login</value>
+						<value>/loginAjax</value>
+						<value>/indexHome</value>
+					</list>
+				</property>
+			</bean>
+		</mvc:interceptor>
+		<!--权限验证-->
+		<bean class="com.gjxx.ftd.common.AuthenInterceptor"></bean>
+	</mvc:interceptors>
+
+	<mvc:resources mapping="/css/**" location="/static/css/" />
+	<mvc:resources mapping="/js/**" location="/static/js/" />
+	<mvc:resources mapping="/img/**" location="/static/img/" />
+	<mvc:resources mapping="/assets/**" location="/static/assets/" />
+	<mvc:resources mapping="/fonts/**" location="/static/fonts/" />
+	<mvc:resources mapping="/plugins/**" location="/static/plugins/" />
+	<mvc:resources mapping="/scripts/**" location="/static/scripts/" />
+	<mvc:resources mapping="/" location="/static/" />
+
+</beans>
