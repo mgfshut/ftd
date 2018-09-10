@@ -24,3 +24,5 @@
 <img src="/ftd-web/src/main/webapp/static/img/readme/角色信息.jpg" alt="living" style="max-width:100%;">
 </dr>
 <img src="/ftd-web/src/main/webapp/static/img/readme/角色权限设置.jpg" alt="living" style="max-width:100%;">
+</dr>
+<img src="/ftd-web/src/main/webapp/static/img/readme/tableCDM.jpg" alt="living" style="max-width:100%;">
