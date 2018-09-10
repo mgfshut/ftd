@@ -12,8 +12,8 @@
             <img class="logo-img" src="${ctx}/static/assets/img/login/logo.png"/>
             <span>逐梦云服务平台</span>
         </div>
-        <div id="login_dialog">
-            <img class="login-bg" src="${ctx}/static/assets/img/login/bgGps.jpg"/>
+        <div id="login_dialog" style="background-color: #0b6cbc;">
+            <img class="login-bg" src="${ctx}/static/assets/img/login/bg.jpg"/>
             <div class="loginbar">
                 <form action="">
                     <div class="login-title">
