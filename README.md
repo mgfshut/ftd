@@ -1,9 +1,11 @@
 # ftd
 <p>主要功能：</p>
-系统管理 --> 系统参数管理、用户信息管理、用户角色管理、操作日志管理、系统菜单管理、
-业务管理 --> 企业管理
+<p>系统管理 --> 系统参数管理、用户信息管理、用户角色管理、操作日志管理、系统菜单管理</p>
+<p>业务管理 --> 企业管理</p>
 
-技术交流、相关资料请加QQ群：298394392
+<p>技术架构：</p>
+<p>springMvc、Dubbo、Redis</p>
+<p>技术交流、相关资料请加QQ群：298394392</p>
 
 <img src="/ftd-web/src/main/webapp/static/img/readme/login.jpg" alt="living" style="max-width:100%;">
 </dr>
