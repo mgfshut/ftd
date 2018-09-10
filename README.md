@@ -5,6 +5,7 @@
 
 <p>技术架构：</p>
 <p>springMvc、Dubbo、Redis</p>
+<p>根据数据库表自动生成代码项目地址：https://github.com/mgfshut/layuicodetool</p>
 <p>技术交流、相关资料请加QQ群：298394392</p>
 
 <img src="/ftd-web/src/main/webapp/static/img/readme/login.jpg" alt="living" style="max-width:100%;">
