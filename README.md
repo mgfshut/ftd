@@ -4,7 +4,8 @@
 <p>业务管理 --> 企业管理</p>
 
 <p>技术架构：</p>
-<p>springMvc、Dubbo、Redis、mybatis、mybatis plus</p>
+<p>springMvc、Dubbo、Redis、mybatis、mybatis plus、Jwt</p>
+<p>系统基础架构、支持单点登录、APP远程登录访问、代码生成极速开发项目</p>
 <p>根据数据库表自动生成代码项目地址：https://github.com/mgfshut/layuicodetool</p>
 <p>技术交流、相关资料请加QQ群：298394392</p>
 
