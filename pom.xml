@@ -47,11 +47,17 @@
 		<jaxrs.version>3.0.7.Final</jaxrs.version>
 		<kafka.version>1.1.8.RELEASE</kafka.version>
 		<kafka.client.version>0.10.2.0</kafka.client.version>
+		<nimbusds.version>5.14</nimbusds.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>com.nimbusds</groupId>
+				<artifactId>nimbus-jose-jwt</artifactId>
+				<version>${nimbusds.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.springframework.kafka</groupId>
 				<artifactId>spring-kafka</artifactId>

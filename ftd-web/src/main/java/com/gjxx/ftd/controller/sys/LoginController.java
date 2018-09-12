@@ -28,6 +28,8 @@ import redis.clients.jedis.Jedis;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -50,7 +52,9 @@ public class LoginController extends BaseController {
     private DictDefineService dictDefineService;
 
     @RequestMapping("index")
-    public String indexAction(){
+    public String indexAction(HttpServletRequest request,Model model){
+        UserBack user = getLoginUser(request);
+        model.addAttribute("user",user);
         return "sys/index";
     }
 
@@ -69,7 +73,7 @@ public class LoginController extends BaseController {
      */
     @ResponseBody
     @RequestMapping(value = "loginAjax", method = RequestMethod.POST)
-    public ResultEntity loginAjax(UserBack user, HttpSession session, HttpServletResponse response, HttpServletRequest request) {
+    public ResultEntity loginAjax(HttpServletRequest request, UserBack user) {
         ResultEntity re = null;
         // 非空校验
         if ("".equals(user.getUserName()) || user.getUserName() == null) {
@@ -85,11 +89,18 @@ public class LoginController extends BaseController {
         try {
             user = userBackService.selectOne(wrapper);
             if (user != null) {
-                session.setAttribute("user", user);
-                CookieKit.setCookie(response, USER_COOKIEID, user.getId().toString());
-                session.setAttribute(USER_SESSIONID, user);
-                logger(user.getUserName(), GetIp.getIp(request), logType,"登录成功");
-                re = new ResultEntity(ErrorCodeType.SUCCESS, "登录成功", null);
+                //生成token
+                Map<String , Object> payload=new HashMap<>();
+                payload.put("uid", user.getId());//用户ID
+                Calendar ca = Calendar.getInstance();
+                payload.put("iat", ca.getTime().getTime());//生成时间
+                ca.add(Calendar.DATE, 30);// num为增加的天数，可以改变的
+                payload.put("ext",ca.getTime().getTime());//过期时间30天
+                String token=Jwt.createToken(payload);
+                Jedis jedisToken = RedisUtil.getJedis();
+                jedisToken.set(String.valueOf(user.getId()),token);
+                jedisToken.close();
+                user.setToken(token);
                 Jedis jedis = RedisUtil.getJedis();
                 Map<String, String> statusMap = jedis.hgetAll("dict:status");
                 jedis.close();
@@ -103,6 +114,12 @@ public class LoginController extends BaseController {
                                 dictDetail.getDictDetailValue(), dictDetail.getDictDetailName());
                     }
                 }
+                logger(user.getUserName(), GetIp.getIp(request), logType,"登录成功");
+                re = new ResultEntity(ErrorCodeType.SUCCESS, "登录成功", user);
+                HttpSession session = request.getSession();
+                session.setAttribute(USER_TOKEN, token);
+                session.setAttribute(USER_TOKENID, String.valueOf(user.getId()));
+                session.setAttribute(USER, user);
             } else {
                 re = new ResultEntity(ErrorCodeType.P_FAILURE, "用户名或密码错误", null);
             }
@@ -118,9 +135,10 @@ public class LoginController extends BaseController {
      * 注销
      */
     @RequestMapping("/logout")
-    public String logout(HttpServletRequest request, HttpServletResponse response) {
-        CookieKit.removeCookie(response, USER_COOKIEID);
-        request.getSession().removeAttribute(USER_SESSIONID);
+    public String logout(HttpServletRequest request) {
+        request.getSession().removeAttribute(USER_TOKEN);
+        request.getSession().removeAttribute(USER_TOKENID);
+        request.getSession().removeAttribute(USER);
         return "redirect:/login";
     }
 

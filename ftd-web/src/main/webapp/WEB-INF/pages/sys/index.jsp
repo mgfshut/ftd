@@ -26,7 +26,6 @@
     </style>
     <script type="text/javascript">
         var path = "<%=path%>";
-        var user = '${sessionScope.user}';
     </script>
 </head>
 <body>

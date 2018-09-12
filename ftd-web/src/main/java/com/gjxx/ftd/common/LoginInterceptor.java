@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 public class LoginInterceptor extends BaseController implements HandlerInterceptor {
     public String[] allowUrls;// 设置不拦截的url
@@ -26,8 +27,14 @@ public class LoginInterceptor extends BaseController implements HandlerIntercept
             }
         }
         UserBack user = getLoginUser(request);
-        if (user != null) {
-            return true;
+        if (user == null) {
+            response.sendRedirect("login");
+            return false;
+        }else{
+            boolean bool = validToken(request);
+            if(bool){
+                return true;
+            }
         }
         response.sendRedirect("login");
         return false;
