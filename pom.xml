@@ -15,7 +15,7 @@
 		<module>ftd-web</module>
 	</modules>
 	<properties>
-		<spring.version>4.3.5.RELEASE</spring.version>
+		<spring.version>4.3.14.RELEASE</spring.version>
 		<druid.version>1.0.28</druid.version>
 		<dubbo.version>2.5.3</dubbo.version>
 		<zookeeper.version>3.4.6</zookeeper.version>
